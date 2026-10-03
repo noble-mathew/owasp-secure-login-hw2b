@@ -1,0 +1,8 @@
+Security test results
+
+PASS: valid login -> HTTP 200: Login successful.
+PASS: SQL-injection-style input -> HTTP 400: Enter a valid email address.
+PASS: XSS-style input -> HTTP 401: Invalid email or password.
+PASS: non-object JSON -> HTTP 400: JSON body must be an object.
+PASS: path traversal attempt is blocked with HTTP 404
+All security checks passed.
