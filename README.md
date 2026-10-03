@@ -65,7 +65,7 @@ The SQL-injection-style value fails server-side email validation. Even without t
 - `static/app.js` - browser-side validation and login request
 - `static/styles.css` - page styling
 - `security_test.py` - reproducible security checks
-- `evidence/attack_test_results.png` - local test evidence
+- `evidence/security_test_results.txt` - recorded output from the local security test run
 - `.gitignore` - excludes generated database/cache files
 
 ## Scope
